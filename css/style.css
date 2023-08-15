@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Ruwudu&display=swap');* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(violet,pink);
+    border: 3px solid black;
+}
+span {
+    font-size: 50px;
+    font-family: 'Playball', cursive;
+}
+.inputDesign1 {
+    width: 400px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Ruwudu', serif;
+    border-radius: 10px;
+}
+.inputDesign {
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Playball', cursive;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+form {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-family: 'Playball', cursive;
+    font-size: 30px;
+}
+.taskBox {
+    display: flex;
+    justify-content: center;
+    border: 1px solid purple;
+    width: 25%;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 5px;
+}
+.addTaskBtn {
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.addTaskBtn:hover {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+.firstline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondline {
+    display: flex;
+    justify-content: center;
+}
+table {
+    border: 1px solid black;
+}
