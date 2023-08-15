@@ -45,7 +45,6 @@ label {
     display: flex;
     justify-content: center;
     border: 1px solid purple;
-    width: 25%;
     box-shadow: 1px 1px 1px 1px gray;
     border-radius: 5px;
 }
@@ -57,6 +56,8 @@ label {
     justify-content: center;
     align-items: center;
     height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
 }
 .addTaskBtn:hover {
     border: 1px solid white;

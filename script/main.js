@@ -68,11 +68,19 @@ let addTask = () => {
             delText= "Noice!";
             alert(delText);
         }
-        if (todoItemsContainer.childElementCount === 1) {
+        if (addTask.childElementCount === 1) {
             document.querySelector("#emptySoul").style.display = 'block';
         } else if (todoItemsContainer.childElementCount < 6) {
-            addItemBtn.removeAttribute("disabled", "");
-            addItemBtn.removeAttribute("style", "color: gray");
+            addTaskBtn.removeAttribute("disabled", "");
             document.querySelector("#limitReached").style.display = 'none';
         }
 }
+deleteBtn.addEventListener("click", deleteBtn);
+
+function toggleColors() {
+    colors[0].classList.toggle("item-red");
+    colors[1].classList.toggle("item-blue");
+    colors[2].classList.toggle("item-orange");
+    colors[3].classList.toggle("item-green");
+ }
+
